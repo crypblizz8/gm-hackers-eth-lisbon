@@ -3,33 +3,33 @@
     "https://www.w3.org/ns/did/v1",
     "https://w3id.org/security/suites/jws-2020/v1"
   ],
-  "id": "did:web:c3d6-148-69-94-5.ngrok-free.app",
+  "id": "did:web:e18e-37-168-36-207.ngrok-free.app",
   "verificationMethod": [
     {
-      "id": "did:web:c3d6-148-69-94-5.ngrok-free.app#wc-notify-subscribe-key",
+      "id": "did:web:e18e-37-168-36-207.ngrok-free.app#wc-notify-subscribe-key",
       "type": "JsonWebKey2020",
-      "controller": "did:web:c3d6-148-69-94-5.ngrok-free.app",
+      "controller": "did:web:e18e-37-168-36-207.ngrok-free.app",
       "publicKeyJwk": {
         "kty": "OKP",
         "crv": "X25519",
-        "x": "Gz3VW9QtNHSyJ0ptE0CO_CV6Ly1SKBuh8Kwqitc5ngM"
+        "x": "6MKGq3gQGZOOmvPQteW4iVpoll00_iW57sBN63dZ12M"
       }
     },
     {
-      "id": "did:web:c3d6-148-69-94-5.ngrok-free.app#wc-notify-authentication-key",
+      "id": "did:web:e18e-37-168-36-207.ngrok-free.app#wc-notify-authentication-key",
       "type": "JsonWebKey2020",
-      "controller": "did:web:c3d6-148-69-94-5.ngrok-free.app",
+      "controller": "did:web:e18e-37-168-36-207.ngrok-free.app",
       "publicKeyJwk": {
         "kty": "OKP",
         "crv": "Ed25519",
-        "x": "rKQH9768MIH-vZllOub6Tj9AedTMcJi90NqtaLyfI7s"
+        "x": "HGl2NXURMOzSkld_AEXoqHX04C1ZADgk67k6WI436UA"
       }
     }
   ],
   "keyAgreement": [
-    "did:web:c3d6-148-69-94-5.ngrok-free.app#wc-notify-subscribe-key"
+    "did:web:e18e-37-168-36-207.ngrok-free.app#wc-notify-subscribe-key"
   ],
   "authentication": [
-    "did:web:c3d6-148-69-94-5.ngrok-free.app#wc-notify-authentication-key"
+    "did:web:e18e-37-168-36-207.ngrok-free.app#wc-notify-authentication-key"
   ]
 }
