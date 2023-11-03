@@ -101,12 +101,12 @@ const Home: NextPage = () => {
   }, [handleRegistration]);
 
   const handleSubscribe = useCallback(async () => {
-    if(!identityKey) {
+    if (!identityKey) {
       await handleRegistration();
     }
 
     await subscribe();
-  }, [subscribe, identityKey])
+  }, [subscribe, identityKey]);
 
   // handleSendNotification will send a notification to the current user and includes error handling.
   // If you don't want to use this hook and want more flexibility, you can use sendNotification.
@@ -117,8 +117,8 @@ const Home: NextPage = () => {
         body: "Hack it until you make it!",
         icon: `${window.location.origin}/WalletConnect-blue.svg`,
         url: window.location.origin,
-	// ID retrieved from explorer api - check here?
-        type: "ba0e9ab1-e194-4780-8fc5-3c8abd9678e2",
+        // ID retrieved from explorer api - check here?
+        type: "test",
       });
     }
   }, [handleSendNotification, isSubscribed]);
