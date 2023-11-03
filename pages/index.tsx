@@ -118,7 +118,7 @@ const Home: NextPage = () => {
         icon: `${window.location.origin}/WalletConnect-blue.svg`,
         url: window.location.origin,
         // ID retrieved from explorer api - check here?
-        type: "test",
+        type: "04c96ea5-f96f-4d09-bf53-0200984050d6",
       });
     }
   }, [handleSendNotification, isSubscribed]);
